@@ -14,7 +14,7 @@ fname.send_keys("Hiren")
 lname = driver.find_element_by_name("lName")
 lname.send_keys("Patel")
 email = driver.find_element_by_name("email")
-email.send_keys("Hiren6@gmail.com")
+email.send_keys(")
 
 sign_up = driver.find_element_by_css_selector(".btn-primary")
 sign_up.send_keys(Keys.ENTER)
